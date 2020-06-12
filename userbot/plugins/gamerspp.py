@@ -52,11 +52,11 @@ async def animepp():
 
     urllib.request.urlretrieve(fy,"donottouch.jpg")
 
-@borg.on(admin_cmd(pattern="gamerdp ?(.*)"))
+@borg.on(admin_cmd(pattern="gamerpp ?(.*)"))
 
 async def main(event):
 
-    await event.edit("**Starting Gamer Profile Pic...\n\nDone !!! Check Your DP") #Owner MarioDevs
+    await event.edit("**Starting Gamer Profile Pic...\n\nDone !!!") #Owner MarioDevs
 
     while True:
 
