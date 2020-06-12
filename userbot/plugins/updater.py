@@ -15,10 +15,10 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "in this case, Updater is unable to identify the branch to be updated."
     "please check out to an official branch, and re-start the updater."
 )
-OFFICIAL_UPSTREAM_REPO = "https://github.com/StarkGang/FridayUserbot/"
-BOT_IS_UP_TO_DATE = "Friday userbot is up-to-date!."
+OFFICIAL_UPSTREAM_REPO = "https://github.com/Zi-King/LionUserbot/"
+BOT_IS_UP_TO_DATE = "Lion userbot is up-to-date!."
 NEW_BOT_UP_DATE_FOUND = (
-    "**Boss!!I Found Update For {branch_name}\n"
+    "**Update For {branch_name}\n"
     "\n\n{changelog}\n"
     "Pulling Updating And Restating"
 )
