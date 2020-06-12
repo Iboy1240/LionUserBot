@@ -71,7 +71,7 @@ async def _(event):
     await event.delete()
     await borg.send_message(
       event.chat_id,
-      "**LET US BE AS ONE**",
+      "Cloned successfully",
       reply_to=reply_message
       )
 
