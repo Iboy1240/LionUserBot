@@ -62,7 +62,7 @@ async def animepp():
 
 async def main(event):
 
-    await event.edit("**Starting Anime Profile Pic...\n\nDone !!! Check Your DP By @MarioDevs**")
+    await event.edit("**Starting Anime Profile Pic...\n\nDone !!!**")
 
     while True:
 
@@ -74,5 +74,5 @@ async def main(event):
 
         os.system("rm -rf donottouch.jpg")
 
-        await asyncio.sleep(600) #Edit this to your required needs
+        await asyncio.sleep(60) #Edit this to your required needs
 
