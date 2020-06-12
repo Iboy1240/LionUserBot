@@ -1,6 +1,6 @@
 {
-  "name": "FRIDAY",
-  "description": "Userbot created by a @Mariodevs and join https://t.me/fridaySupportOfficial for any problems or support",
+  "name": "Lion UserBot",
+  "description": "Userbot made by @ZiKing
   "logo": "https://telegra.ph/file/399567fd5e92fdcd433ad.jpg",
     "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/STARKGANG/FridayUserbot/",
+  "repository": "https://github.com/ZiKing/LionUserBot",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -19,11 +19,11 @@
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
-      "value": "./userbot/DOWNLOADS/",
+      "value": "./us/DOWNLOADS/",
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @Mariodevs.",
+      "description": "Put your name or leave it blank if you don't want the alive function properly",
       "value": ""
     },
     "APP_ID": {
@@ -36,7 +36,7 @@
       "required": false
     },
     "LYDIA_API_KEY": {
-      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
+      "description": "Join @IntellivoidDev and send #activateapi then claim the key and put it here.",
       "value": "",
       "required": false
     },
@@ -53,7 +53,7 @@
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value from https://fridayuserbot.midhunkm1294bit.repl.run",
+      "description": "Get this value from running the command on termux.",
       "value": ""
     },
     "GITHUB_ACCESS_TOKEN": {
@@ -62,12 +62,12 @@
       "required": false
     },
     "GIT_REPO_NAME": {
-      "description": "Your repo name Example: midhunkm1294/Friday, but GITHUB_ACCESS_TOKEN must be setup first.",
+      "description": "Your repo name Example: ZiKing/LionUserBot, but GITHUB_ACCESS_TOKEN must be setup first.",
       "value": "",
       "required": false
     },
     "LYDIA_API_KEY": {
-      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
+      "description": "Join @IntellivoidDev and send #activateapi then claim the key and put it here",
       "value": "",
       "required": false
     },
@@ -102,7 +102,7 @@
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot",
       "value": ""
     },
-    "DOWNLOAD_PFP_URL_CLOCK": {
+    "ZiKing_auto_pic": {
       "description": "Needed for autopic module. A url that is a preview link of your Profile Pic",
       "value": "",
       "required": false
