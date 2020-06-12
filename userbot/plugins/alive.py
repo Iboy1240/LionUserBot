@@ -16,7 +16,6 @@ async def amireallyalive(alive):
     await alive.edit("**Lion UserBot is up and runjing! *\n\n"
                      "Neutron: 6.0.9 \nProton: 3.7.4\n"
                      "Heroku: Connected "
-                     "OS: GNU/Linux\n"
-                     "UserBot location: USA
-                     ") 
+                     "OS: GNU/Linux\nUserBot location: USA"
+                     "User: {DEFAULTUSER}") 
 
