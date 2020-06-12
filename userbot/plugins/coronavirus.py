@@ -25,7 +25,7 @@ async def _(event):
 
         output_text += "`{}`: `{}`\n".format(str(name), str(value))
 
-    await event.edit("**CoronaVirus Info in {}**:\n\n{}".format(country.capitalize(), output_text))
+    await event.edit("**CoronaVirus(covid 19) Info in {}**:\n\n{}".format(country.capitalize(), output_text))
 
 
 
