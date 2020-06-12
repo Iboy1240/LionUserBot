@@ -140,7 +140,7 @@ async def carbon_api(e):
 
    sleep(2.5)
 
-   await e.edit("`Done Dana Done...\n100%`")
+   await e.edit("`Done...\n100%`")
 
    file = './carbon.png'
 
@@ -152,7 +152,7 @@ async def carbon_api(e):
 
          file,
 
-         caption="<< Here's your carbon, \n Carbonised by [FRIDAY](https://www.github.com/midhunkm1294-bit/FRIDAY)>> ",
+         caption="Carbonized successfully.",
 
          force_document=True,
 
