@@ -29,7 +29,7 @@ from telethon.tl.types import (
 from userbot.utils import admin_cmd
 from userbot import ALIVE_NAME
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "IndianBot"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@LionUserBot"
 FILLED_UP_DADDY = "Invalid pack selected."
 
 @borg.on(admin_cmd(pattern="kang ?(.*)"))
@@ -50,18 +50,18 @@ async def _(event):
         user.first_name = user.id
     pack = 1
     userid = event.from_id
-    #packname = f"FRIDAY PACK"
-    #packshortname = f"FRIDAY_{userid}_ns"  # format: Uni_Borg_userid
+    #packname = f"Lion Pack"
+    #packshortname = f"{DEFAULTUSER}'s pack"  # format: Uni_Borg_userid
     if userid == 953414679:
-        packname = f"My Boss Sticker Pack"
+        packname = f"Lion Pack"
         packshortname = "FRIDAY"
     else:
-        packname = f"{user.first_name}'s FRIDAY Vol.{pack}"
+        packname = f"{user.first_name}'s pack"
         packshortname = f"FRIDAY_{userid}_Pack"
     await event.edit("`Look that way,it's a Kang King!\nMeanwhile, let me kang this stcker over HeHe!! ヽ༼ ಠ益ಠ ༽ﾉ`")
 
     is_a_s = is_it_animated_sticker(reply_message)
-    file_ext_ns_ion = "@FRIDAY.png"
+    file_ext_ns_ion = "@lion.png"
     file = await borg.download_file(reply_message.media)
     uploaded_sticker = None
     if is_a_s:
