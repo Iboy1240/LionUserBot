@@ -49,11 +49,11 @@ async def animepp():
 
     urllib.request.urlretrieve(fy,"friday.jpg")
 
-@borg.on(admin_cmd(pattern="spacedp ?(.*)"))
+@borg.on(admin_cmd(pattern="spacepp ?(.*)"))
 
 async def main(event):
 
-    await event.edit("**Starting Space Profile Pic...\n\nDone !!! Check Your DP") #Owner MarioDevs
+    await event.edit("**Starting Space Profile Pic...\n\nDone !!! ") #Owner MarioDevs
 
     while True:
 
@@ -65,5 +65,5 @@ async def main(event):
 
         os.system("rm -rf donottouch.jpg")
 
-        await asyncio.sleep(3600) #Edit this to your required needs
+        await asyncio.sleep(60) #Edit this to your required needs
 
