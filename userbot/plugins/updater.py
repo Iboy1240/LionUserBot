@@ -18,7 +18,7 @@ IS_SELECTED_DIFFERENT_BRANCH = (
 OFFICIAL_UPSTREAM_REPO = "https://github.com/Zi-King/LionUserbot/"
 BOT_IS_UP_TO_DATE = "Lion userbot is up-to-date!."
 NEW_BOT_UP_DATE_FOUND = (
-    "**Update For {branch_name}\n"
+    "**New Update For {branch_name}\n"
     "\n\n{changelog}\n"
     "Pulling Updating And Restating"
 )
